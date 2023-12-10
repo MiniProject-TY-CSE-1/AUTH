@@ -17,7 +17,7 @@ const JWT_SECRET =
 
 
 const mongoUrl =
-  "mongodb://0.0.0.0:27017";
+  "mongodb+srv://rutujamadane6865:rutuja@cluster0.k4mce6k.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(mongoUrl, {
